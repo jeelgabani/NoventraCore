@@ -17,7 +17,7 @@ const CustomScrollbar = () => {
   const thumbY = useTransform(scrollYProgress, [0, 1], ['0%', '100%']);
 
   useEffect(() => {
-    let timeoutId: NodeJS.Timeout;
+    let timeoutId: ReturnType<typeof setTimeout>;
 
     const handleScroll = () => {
       setIsScrolling(true);

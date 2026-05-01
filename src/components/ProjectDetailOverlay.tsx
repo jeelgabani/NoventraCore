@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Sparkles, Globe, ExternalLink } from 'lucide-react';
+import { X, Globe, ExternalLink } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 interface Project {
