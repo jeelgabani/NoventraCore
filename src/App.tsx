@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Lenis from 'lenis';
+import { Analytics } from '@vercel/analytics/react';
 import CustomCursor from './components/CustomCursor';
 import CustomScrollbar from './components/CustomScrollbar';
 import Navbar from './components/Navbar';
@@ -65,6 +66,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 }
